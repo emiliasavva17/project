@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#196653;
+}
+
+nav {
+  background-color: #c89d54;
+  padding:0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 35px #b88c41;
+  position: relative;
+  width: 100%;
+}
+
+nav ul {
+  text-decoration: none;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  
+  margin-top: 30px;
+}
+
+nav ul li {
+justify-content: flex-end;
+padding: 0px 20px 10px;
+
+}
+
+#logo{
+	 height: 100px;
+	 width: 270px;	
+	}
+
+#bg{
+	background-image: url("../images/forest.png");
+	height: 768px;
+	width: auto;
+	position: relative;
+}
+
+
+#info{
+	margin-top: 120px;
+	 position: absolute;
+	 margin-bottom: 400px;
+	 font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	 font-size: 30px;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 65px;
+	padding-right: 50px;
+	color: white;
+ 	display: flex;
+	justify-content: center;
+	 
+	 background-color:#c89d54;
+	border-radius: 70px;
+	
+	
+}
+
+#x{
+	
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	background-color:#c89d54;
+	color: white;
+}
+#blind{
+	
+	color: #c89d54;
+}
+
+
+#xx{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15%;
+	font-size: 40px;
+	margin-top: 80px;
+	
+}
+
+#play{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 50px;
+	margin-left: 50%;
+	height: auto;
+	text-align: center;
+	width: 270px;
+	padding-left: 25px;
+	padding-right: 33px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #196653;
+	color: white;
+	font-size: 45px;
+	border-radius: 30px;
+	
+}
+
+#playParents{
+	
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	margin-left: 40%;
+	height: auto;
+	text-align: center;
+	width: 270px;
+	padding-left: 25px;
+	padding-right: 33px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #196653;
+	color: white;
+	font-size: 45px;
+	border-radius: 30px;
+}
+#charcter{
+	
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 100px;
+	
+}
+
+
+.footer {
+  bottom: -440px;
+  background-color: white;
+  height: auto;
+  width:auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin-bottom: 0px;
+	
+}
+
+.icons
+{
+  display: flex;
+}
+
+
+i {
+  color:black;
+  font-size: 30px;
+  padding: 0px 33px 0px 0px;
+  margin-left: 23px;
+}
+
+i:hover{
+  color:#c89d54;
+}
+
+.info{
+  color:black;
+  align-self: flex-end;
+
+}
+
+footer p{
+  color:black;
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+
+
+
+
+
+
